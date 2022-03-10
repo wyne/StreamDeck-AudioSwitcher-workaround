@@ -1,5 +1,13 @@
 # StreamDeck-AudioSwitcher-workaround
 
+## Summary
+
+This is a ridiculously involved workaround for a little bug in https://github.com/fredemmott/StreamDeck-AudioSwitcher that creates duplicate usb device entries after reboot.
+
+Issue: https://github.com/fredemmott/StreamDeck-AudioSwitcher/issues/56
+
+## Instructions
+
 Create script that will replace the device ID. Place it in /usr/local/bin.
 
 `/usr/local/bin/fix-audio-mapping.sh`
