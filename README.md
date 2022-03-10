@@ -8,6 +8,8 @@ Issue: https://github.com/fredemmott/StreamDeck-AudioSwitcher/issues/56
 
 ## Instructions
 
+WARNING: Please back up your configurations before running any of this. Also note that when I was debugging the launch agent code, it would often freeze the OS and I would have to force restart often. However, now that it's running, it's quite stable.
+
 Create script that will replace the device ID. Place it in /usr/local/bin.
 
 `/usr/local/bin/fix-audio-mapping.sh`
